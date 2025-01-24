@@ -1,12 +1,12 @@
 config:
   url_90 : http://47.95.240.88:9621
   url_IDC: https://mmmj.igamesofficial.com:8101
-  openid: OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09
+  openid: enNvbHRqeS9TQXFrZU9Camg3TExDQT09
   momoids: 19090013
   server_id: 10003
-  num: 10000000
+  num: 1000000
   product_id: 99003
-  level: 300
+  level: 250
   exp: 800
   while_adventure: 500
   while_artifact_upStar: 51
