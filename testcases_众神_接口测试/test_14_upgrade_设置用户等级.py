@@ -13,8 +13,8 @@ server_id = config['config']['server_id']
 
 
 def test_upgrade():
-    api_url = f"{url_90}/debug/setUserLevel?open_id={openid}&level={level}&exp={exp}&server_id={server_id}"
-    # api_url = f"{url_IDC}/debug/setUserLevel?open_id={openid}&level={level}&exp={exp}&server_id={server_id}"
+    # api_url = f"{url_90}/debug/setUserLevel?open_id={openid}&level={level}&exp={exp}&server_id={server_id}"
+    api_url = f"{url_IDC}/debug/setUserLevel?open_id={openid}&level={level}&exp={exp}&server_id={server_id}"
     print(api_url)
     response = requests.post(api_url)
     assert response.status_code == 200
