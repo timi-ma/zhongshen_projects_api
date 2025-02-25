@@ -16,9 +16,9 @@ server_id = config['config']['server_id']
 def test_artifact_upStar():
     o = 1
     while o <= while_artifact_upStar:
-        i = 16
-        while i <= 16:
-            base_url = f'{url_90}/mj-game-server/gods/game?n=json&m='
+        i = 1
+        while i <= 28:
+            base_url = f'{url_IDC}/mj-game-server/gods/game?n=json&m='
             params = {
                 "open_id": f"{openid}",
                 "momo_token": "h5",
